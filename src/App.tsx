@@ -84,6 +84,31 @@ const TRANSLATIONS = {
         role: 'Smart Editor',
         bio: 'The editor-in-chief of the school newspaper. Andrea is not from Beverly Hills and has to hide her real address to study at West Beverly. She is extremely smart, principled, and secretly in love with Brandon.',
         car: 'Initially didn\'t have her own car, took the bus, later practical sedans'
+      },
+      valerie: {
+        role: 'Cunning Beauty',
+        bio: 'A family friend of the Walshes from Minnesota who comes to stay after Brenda leaves. She is manipulative, secretive, but ultimately looking for love and a place to belong.',
+        car: 'Red Porsche 911 Carrera Cabriolet'
+      },
+      clare: {
+        role: 'Rebellious Chancellor\'s Daughter',
+        bio: 'Daughter of the California University chancellor. Intelligent, wild, and incredibly forward. She pursues Brandon relentlessly before mellowing out and joining the main cast permanently.',
+        car: 'Silver BMW Z3'
+      },
+      matt: {
+        role: 'Idealistic Lawyer',
+        bio: 'A young lawyer who sets up a practice in the same building as Kelly\'s PR firm. A good guy who often takes on pro bono cases, becoming Kelly\'s major love interest in later seasons.',
+        car: 'Classic Ford Mustang (Blue)'
+      },
+      gina: {
+        role: 'Jealous Cousin',
+        bio: 'Donna\'s cousin and former ice skating champion who comes to LA. Feeling inadequate next to Donna\'s wealth, she often acts out of jealousy and resentment.',
+        car: 'Yellow Volkswagen New Beetle'
+      },
+      noah: {
+        role: 'Broody Heir',
+        bio: 'A seemingly poor boat dock worker who turns out to be the heir to a massive oil fortune. Haunted by tragedy, he becomes a staple of the group in the later years.',
+        car: 'Black Range Rover'
       }
     },
     episodes: {
@@ -211,6 +236,71 @@ const CHARACTERS = [
     textColor: 'text-white',
     bio: 'Головна редакторка шкільної газети. Андреа не з Беверлі-Хіллз і змушена приховувати свою справжню адресу, щоб навчатися у West Beverly. Вона надзвичайно розумна, принципова і таємно закохана в Брендона.',
     car: 'Спочатку не мала власного авто, їздила на автобусі, пізніше практичні седани'
+  },
+  {
+    id: 'valerie',
+    name: 'Валері Мелоун',
+    nameEn: 'Valerie Malone',
+    role: 'Хитра красуня',
+    color: 'bg-vibrant-pink',
+    border: 'border-vibrant-pink',
+    portrait: '/валері.webp',
+    rotation: '-rotate-2',
+    textColor: 'text-white',
+    bio: 'Подруга родини Волшів з Міннесоти, яка приїжджає після від\'їзду Бренди. Вона маніпулятивна, скритна, але в глибині душі шукає любов і своє місце в світі.',
+    car: 'Червоний Porsche 911 Carrera Cabriolet'
+  },
+  {
+    id: 'clare',
+    name: 'Клер Арнольд',
+    nameEn: 'Clare Arnold',
+    role: 'Бунтарка на кампусі',
+    color: 'bg-vibrant-yellow',
+    border: 'border-vibrant-yellow',
+    portrait: '/клер.jpg',
+    rotation: 'rotate-3',
+    textColor: 'text-black',
+    bio: 'Донька ректора Каліфорнійського університету. Розумна, дика та неймовірно прямолінійна. Спочатку переслідує Брендона, а потім стає невід\'ємною частиною компанії.',
+    car: 'Сріблястий BMW Z3'
+  },
+  {
+    id: 'matt',
+    name: 'Метт Дьорнінг',
+    nameEn: 'Matt Durning',
+    role: 'Ідеалістичний адвокат',
+    color: 'bg-vibrant-teal',
+    border: 'border-vibrant-teal',
+    portrait: 'https://placehold.co/400x500/00ffee/000?text=Matt',
+    rotation: '-rotate-3',
+    textColor: 'text-black',
+    bio: 'Молодий адвокат, який відкриває практику в тій самій будівлі, що й PR-агентство Келлі. Хороший хлопець, який часто бере справи pro bono, стає головним коханням Келлі в пізніх сезонах.',
+    car: 'Класичний Ford Mustang (Синій)'
+  },
+  {
+    id: 'gina',
+    name: 'Джинна Кінкейд',
+    nameEn: 'Gina Kincaid',
+    role: 'Заздрісна кузина',
+    color: 'bg-black',
+    border: 'border-black',
+    portrait: '/джинна.jpg',
+    rotation: 'rotate-2',
+    textColor: 'text-white',
+    bio: 'Кузина Донни і колишня чемпіонка з фігурного катання. Почуваючись неповноцінною поруч із багатством Донни, вона часто діє з заздрості та образи.',
+    car: 'Жовтий Volkswagen New Beetle'
+  },
+  {
+    id: 'noah',
+    name: 'Ноа Хантер',
+    nameEn: 'Noah Hunter',
+    role: 'Спадкоємець із таємницею',
+    color: 'bg-white',
+    border: 'border-white',
+    portrait: '/ноа.webp',
+    rotation: '-rotate-2',
+    textColor: 'text-vibrant-pink',
+    bio: 'На перший погляд бідний працівник порту, який виявляється спадкоємцем величезних статків. Переслідуваний трагедією, він стає важливою частиною групи.',
+    car: 'Чорний Range Rover'
   }
 ];
 
@@ -220,7 +310,7 @@ const EPISODES = [
     id: 'S01E01',
     title: 'Клас Беверлі-Хіллз (Пілот)',
     synopsis: 'Близнюки Волш переїжджають з Міннесоти в Беверлі-Хіллз. Брендон і Бренда розпочинають перший день у школі West Beverly High, стикаючись із культурним шоком.',
-    link: '#',
+    link: 'https://uakino.club/search?q=Беверлі-Гіллз+90210',
     color: 'bg-vibrant-pink'
   },
   {
@@ -228,7 +318,7 @@ const EPISODES = [
     id: 'S01E13',
     title: 'Піжамна вечірка',
     synopsis: 'Бренда влаштовує піжамну вечірку, що виходить з-під контролю. Тим часом Стів, Ділан і Брендон випадково викликають "дівчину за викликом".',
-    link: '#',
+    link: 'https://uaserials.pro/search/?do=search&subaction=search&story=%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96',
     color: 'bg-vibrant-teal'
   },
   {
@@ -236,7 +326,7 @@ const EPISODES = [
     id: 'S03E29',
     title: 'Випускний',
     synopsis: 'Компанія нарешті закінчує школу West Beverly High. Усі згадують минуле, готуються до дорослого життя і прощаються зі школою.',
-    link: '#',
+    link: 'https://uakino.club/search?q=Беверлі-Гіллз+90210',
     color: 'bg-vibrant-yellow'
   },
   {
@@ -244,7 +334,7 @@ const EPISODES = [
     id: 'S10E27',
     title: 'Ода (Фінал серіалу)',
     synopsis: 'Девід і Донна нарешті одружуються. Серіал завершується ностальгічним прощанням із компанією, яка виросла разом у Беверлі-Хіллз.',
-    link: '#',
+    link: 'https://uaserials.pro/search/?do=search&subaction=search&story=%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96',
     color: 'bg-vibrant-pink'
   }
 ];
@@ -298,8 +388,9 @@ export default function App() {
 
   // Memory Game Logic
   const generateCards = () => {
-    return [...CHARACTERS, ...CHARACTERS]
-      .map((char) => ({ ...char, id: Math.random(), isFlipped: false, isMatched: false }))
+    const gameCharacters = CHARACTERS.slice(0, 8); // always 8 pairs (16 cards)
+    return [...gameCharacters, ...gameCharacters]
+      .map((char) => ({ ...char, gameId: Math.random(), isFlipped: false, isMatched: false }))
       .sort(() => Math.random() - 0.5);
   };
 
@@ -444,7 +535,7 @@ export default function App() {
           <a href="#characters" className="hover:text-vibrant-yellow transition-colors drop-shadow-md">{lang === 'en' ? 'Cast' : 'Герої'}</a>
           <a href="#house" className="hover:text-vibrant-yellow transition-colors drop-shadow-md">{lang === 'en' ? 'House' : 'Будинок'}</a>
           <a href="#episodes" className="hover:text-vibrant-yellow transition-colors drop-shadow-md">{lang === 'en' ? 'Episodes' : 'Епізоди'}</a>
-          <a href="#" className="border-b-4 border-vibrant-teal pb-1 hover:text-vibrant-yellow transition-colors drop-shadow-md">
+          <a href="https://uakino.club/search?q=Беверлі-Гіллз+90210" target="_blank" rel="noopener noreferrer" className="border-b-4 border-vibrant-teal pb-1 hover:text-vibrant-yellow transition-colors drop-shadow-md">
             {t.watch}
           </a>
         </div>
@@ -479,9 +570,9 @@ export default function App() {
             </p>
             
             <div className="mt-12 flex flex-col sm:flex-row gap-6">
-              <button className="bg-vibrant-yellow text-black px-10 py-5 rounded-full font-black text-xl uppercase tracking-tighter hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-[6px_6px_0_#000]">
+              <a href="https://uakino.club/search?q=Беверлі-Гіллз+90210" target="_blank" rel="noopener noreferrer" className="bg-vibrant-yellow text-black px-10 py-5 rounded-full font-black text-xl uppercase tracking-tighter hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-[6px_6px_0_#000]">
                 <Play fill="currentColor" size={24} /> {t.watch}
-              </button>
+              </a>
               <a href="#characters" className="bg-white text-vibrant-pink border-4 border-vibrant-pink px-10 py-5 rounded-full font-black text-xl uppercase tracking-tighter text-center hover:bg-black hover:text-white hover:border-black transition-colors shadow-[6px_6px_0_rgba(0,0,0,0.5)]">
                 {lang === 'ua' ? 'Герої' : 'Characters'}
               </a>
@@ -653,33 +744,36 @@ export default function App() {
 
           <div className="grid grid-cols-4 gap-4 md:gap-6 bg-black/20 p-6 md:p-10 rounded-3xl backdrop-blur-sm border-4 border-white/30 max-w-4xl mx-auto">
             {cards.map((card, index) => (
-              <motion.div
-                key={card.id}
-                onClick={() => handleCardClick(index)}
-                whileHover={!card.isFlipped && !card.isMatched ? { scale: 1.05 } : {}}
-                whileTap={!card.isFlipped && !card.isMatched ? { scale: 0.95 } : {}}
-                className={`w-20 h-24 sm:w-28 sm:h-36 md:w-36 md:h-48 cursor-pointer relative preserve-3d transition-transform duration-500 ${card.isFlipped || card.isMatched ? '[transform:rotateY(180deg)]' : ''}`}
-                style={{ transformStyle: 'preserve-3d' }}
-              >
-                {/* Back (Cover) */}
-                <div 
-                   className="absolute inset-0 backface-hidden bg-vibrant-yellow border-4 border-black shadow-[4px_4px_0_#000] rounded-xl flex items-center justify-center bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=')] opacity-80"
-                   style={{ backfaceVisibility: 'hidden' }}
+              <div key={card.gameId} className="w-20 h-24 sm:w-28 sm:h-36 md:w-36 md:h-48" style={{ perspective: 1000 }}>
+                <motion.div
+                  onClick={() => handleCardClick(index)}
+                  animate={{ rotateY: card.isFlipped || card.isMatched ? 180 : 0 }}
+                  transition={{ duration: 0.5, type: 'spring', stiffness: 200, damping: 20 }}
+                  whileHover={!card.isFlipped && !card.isMatched ? { scale: 1.05 } : {}}
+                  whileTap={!card.isFlipped && !card.isMatched ? { scale: 0.95 } : {}}
+                  className="w-full h-full cursor-pointer relative preserve-3d"
+                  style={{ transformStyle: 'preserve-3d' }}
                 >
-                  <span className="text-4xl">?</span>
-                </div>
-                
-                {/* Front (Character) */}
-                <div 
-                   className={`absolute inset-0 backface-hidden ${card.color} border-4 ${card.isMatched ? 'border-white' : 'border-black'} shadow-[4px_4px_0_#000] rounded-xl overflow-hidden flex flex-col`}
-                   style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
-                >
-                  <img src={card.portrait} alt={card.name} className={`w-full h-full object-cover mix-blend-multiply ${card.isMatched ? 'grayscale-0' : 'grayscale'}`} />
-                  <div className="absolute bottom-0 left-0 w-full bg-white text-black text-center text-xs sm:text-sm font-black italic uppercase leading-none py-1 border-t-2 border-black">
-                     {(lang === 'en' ? card.nameEn : card.name).split(' ')[0]}
+                  {/* Back (Cover) */}
+                  <div 
+                     className="absolute inset-0 backface-hidden bg-vibrant-yellow border-4 border-black shadow-[4px_4px_0_#000] rounded-xl flex items-center justify-center bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiMwMDAwMDAiLz48L3N2Zz4=')] opacity-80"
+                     style={{ backfaceVisibility: 'hidden' }}
+                  >
+                    <span className="text-4xl">?</span>
                   </div>
-                </div>
-              </motion.div>
+                  
+                  {/* Front (Character) */}
+                  <div 
+                     className={`absolute inset-0 backface-hidden ${card.color} border-4 ${card.isMatched ? 'border-white' : 'border-black'} shadow-[4px_4px_0_#000] rounded-xl overflow-hidden flex flex-col`}
+                     style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
+                  >
+                    <img src={card.portrait} alt={card.name} className={`w-full h-full object-cover mix-blend-multiply ${card.isMatched ? 'grayscale-0' : 'grayscale'}`} />
+                    <div className="absolute bottom-0 left-0 w-full bg-white text-black text-center text-[10px] sm:text-xs md:text-sm font-black italic uppercase leading-none py-1 md:py-2 border-t-2 border-black">
+                       {(lang === 'en' ? card.nameEn : card.name).split(' ')[0]}
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
             ))}
           </div>
 
@@ -714,16 +808,16 @@ export default function App() {
                 <span className={`px-4 py-2 ${ep.color} text-black font-black uppercase tracking-widest border-4 border-black inline-block -rotate-2 -ml-2 -mt-4 shadow-[4px_4px_0px_#000]`}>
                   {ep.id}
                 </span>
-                <a href={ep.link} className="flex items-center gap-2 font-bold uppercase tracking-widest hover:text-vibrant-pink transition-colors text-black border-b-2 border-transparent hover:border-black">
+                <a href={ep.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-bold uppercase tracking-widest hover:text-vibrant-pink transition-colors text-black border-b-2 border-transparent hover:border-black">
                   <Play size={20} fill="currentColor" /> {t.stream}
                 </a>
               </div>
               <h3 className="text-3xl md:text-4xl font-black uppercase tracking-tighter italic text-black mb-4 leading-none">{lang === 'en' ? t.episodes[ep.t_id].title : ep.title}</h3>
               <p className="font-medium text-gray-700 text-lg flex-1 mb-6">{lang === 'en' ? t.episodes[ep.t_id].synopsis : ep.synopsis}</p>
               
-              <button onClick={() => window.alert(lang === 'en' ? 'Video player will be available later!' : 'Відео плеєр буде доступний пізніше!')} className="bg-black text-white px-8 py-4 font-black uppercase tracking-widest text-center mt-auto hover:bg-vibrant-pink hover:text-black transition-colors border-2 border-transparent hover:border-black shadow-[4px_4px_0px_#FF4FAD] active:translate-x-1 active:translate-y-1 active:shadow-none">
+              <a href={ep.link} target="_blank" rel="noopener noreferrer" className="bg-black text-white px-8 py-4 font-black uppercase tracking-widest text-center block mt-auto hover:bg-vibrant-pink hover:text-black transition-colors border-2 border-transparent hover:border-black shadow-[4px_4px_0px_#FF4FAD] active:translate-x-1 active:translate-y-1 active:shadow-none">
                 {t.watchNow}
-              </button>
+              </a>
             </motion.div>
           ))}
         </div>
@@ -765,13 +859,13 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-black text-center py-16 px-6 border-t-8 border-vibrant-teal relative z-10">
         <div className="flex justify-center space-x-6 mb-8">
-          <a href="#" className="w-12 h-12 rounded-full border-2 border-vibrant-yellow flex items-center justify-center hover:bg-vibrant-yellow hover:text-black transition-colors text-vibrant-yellow">
+          <a onClick={(e) => { e.preventDefault(); window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`, '_blank') }} href="#" className="w-12 h-12 rounded-full border-2 border-vibrant-yellow flex items-center justify-center hover:bg-vibrant-yellow hover:text-black transition-colors text-vibrant-yellow">
             <Facebook size={24} />
           </a>
-          <a href="#" className="w-12 h-12 rounded-full border-2 border-vibrant-pink flex items-center justify-center hover:bg-vibrant-pink hover:text-black transition-colors text-vibrant-pink">
+          <a onClick={(e) => { e.preventDefault(); window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent('Перевірте цей класний сайт про Беверлі-Хіллз 90210!')}`, '_blank') }} href="#" className="w-12 h-12 rounded-full border-2 border-vibrant-pink flex items-center justify-center hover:bg-vibrant-pink hover:text-black transition-colors text-vibrant-pink">
             <Twitter size={24} />
           </a>
-          <a href="#" className="w-12 h-12 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-colors text-white">
+          <a onClick={(e) => { e.preventDefault(); window.open('https://www.instagram.com/explore/tags/bh90210/', '_blank') }} href="#" className="w-12 h-12 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-black transition-colors text-white">
             <Instagram size={24} />
           </a>
         </div>
